@@ -10,15 +10,12 @@
             <input type="password" class="password" placeholder="请输入密码" v-model="password" v-validate="'required|logpwd'" name="loginPwd">
             <span v-show="errors.has('loginPwd')" class="text-style"> {{ errors.first('loginPwd') }} </span>
         </div>
-<<<<<<< HEAD
         <van-button class="log" type="primary" round v-if="!isclick" color="linear-gradient(to right, #f2bdd8,#e67078)" size="large" @click="login">登录</van-button>
         <van-button class="log" v-else loading  round type="primary" loading-type="spinner" loading-text="登录中..." disabled size="large" color="linear-gradient(to right, #e67078, #f2bdd8)"></van-button>
         <van-button class="reg" type="primary" round color="linear-gradient(to right, #f2bdd8,#e67078 )" size="large" to="/register">注册</van-button>
-=======
         <van-button class="log" type="primary" v-if="!isclick" color="linear-gradient(to right, #f2bdd8,#e67078)" size="large" @click="login">登录</van-button>
         <van-button class="log" v-else loading type="primary" loading-type="spinner" loading-text="登录中..." disabled size="large" color="linear-gradient(to right, #e67078, #f2bdd8)"></van-button>
         <van-button class="reg" type="primary"  color="linear-gradient(to right, #f2bdd8,#e67078 )" size="large" @click="login">注册</van-button>
->>>>>>> 6ac1d1f232952e06fbd172101c7d49fd4c3e2a64
     </div>
 </template>
 <script>
