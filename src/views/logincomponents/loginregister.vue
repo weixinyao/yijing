@@ -30,15 +30,12 @@ export default {
     },
     methods: {
         login() {
-<<<<<<< HEAD
             this.$validator.validateAll().then(result => {
               if(result) {
               this.isclick = true
               }
             })
-=======
             this.isclick = true
->>>>>>> 6ac1d1f232952e06fbd172101c7d49fd4c3e2a64
         }
     }
 }
