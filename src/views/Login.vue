@@ -23,9 +23,9 @@ export default {
 </script>
 <style lang="stylus" scoped>
   .login
-    background: url('~@/assets/img/background.png') center center/cover  no-repeat fixed;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 178%;
+    background: url('~@/assets/img/background.png') center center/cover  no-repeat fixed
+    width: 100%
+    height: 0
+    overflow: hidden
+    padding-bottom: 178%
 </style>
